@@ -1,7 +1,7 @@
 PoC.CaliburnSharedViews
 =======================
 
-I've run across an issue using Caliburn.Micro when sharing a `Screen` between multiple parent `Screen`s. In this example I have 2 tabs inside a shell. Each tab shares a single instance of `SharedViewModel` (essentially a singleton).
+I've run across an issue using Caliburn.Micro when sharing a `Screen` between multiple parent Screens. In this example I have 2 tabs inside a shell. Each tab shares a single instance of `SharedViewModel` (essentially a singleton).
 
 ```c#
 var shared = new SharedViewModel();
